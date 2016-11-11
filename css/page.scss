@@ -1,22 +1,19 @@
 .affix {
- 
-top: 90px;
+  top:0;
  
 }
  
 .affix-top {
  
-top: 90px;
+position: relative;
  
-position:absolute;
+
  
 }
  
 .affix-bottom {
+  
  
-bottom: 90px;
- 
-position:absolute;
  
 }
 .sidebar-nav {
@@ -25,14 +22,15 @@ position:absolute;
   //background-image: linear-gradient(to right, #333333 10px, #222222 10px);
   //background-repeat: repeat-x;
   //filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
-  h3{padding-left:30px;}
-  ul{  list-style: none;padding:0;
+  h3{padding-left:30px; font-size:26px;}
+  .metismenu{  list-style: none;padding:0;
   	.metismenu-l{//border-top: 1px solid rgba(0, 0, 0, 0.3); 
+      width:263px;
   		&.active{background-color:#f2f2f2;
   			.metismenu-l-a{border-left:solid 4px #133169;border-bottom: 1px solid #e5e5e5;}
   		}
   		.metismenu-l-a{
-				display: block;width: 280px;padding: 10px 20px;padding-left:28px;color: #575757;border-top: 1px solid #e5e5e5;font-size:16px;
+				display: block;padding: 10px 20px;padding-left:28px;color: #575757;border-top: 1px solid #e5e5e5;font-size:16px;
 				//box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
 			  .sidebar-nav-item {
 				  padding-left: 5px;
@@ -47,7 +45,8 @@ position:absolute;
   					padding: 10px 0;
 					  color: #575757;
 					  border-bottom: 1px solid #e5e5e5;
-  					font-size: 12px;
+  					font-size: 13px;
+            width: 210.5px;
   				}
   				&:hover,&:focus,&:active{color:#575757;background-color:#133169;
   					a{color:#fff;}
@@ -67,5 +66,27 @@ position:absolute;
    
   text-decoration: none;
 }
+.page-con{margin-top:30px;margin-bottom:30px;
+}
+//lg-xs
+@media (max-width: 768px) { 
+ .page-con{margin-top:-10px;
+    .row{padding:0; margin:0;
+      .row{margin:0 -15px;}
+    }
+ }
+}
+//lg-sm
+@media (min-width: 768px) and (max-width: 992px) { 
  
  
+}
+//md-md
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+//md-lg
+@media (min-width: 1200px) {
+ 
+
+}

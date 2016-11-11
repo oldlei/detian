@@ -148,15 +148,6 @@
           margin: 0;
           padding: 5px; }
 
-.footer {
-  background-color: #032135;
-  color: #999; }
-  .footer .row {
-    text-align: center;
-    line-height: 80px; }
-    .footer .row .beian {
-      color: #fff; }
-
 @media (max-width: 768px) {
   .ibannerall {
     margin-top: 0; }
